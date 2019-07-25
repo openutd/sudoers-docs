@@ -1,0 +1,41 @@
+\documentclass[a4paper]{smallposter}
+% these are the dimensions given by the SOC copy service.
+\geometry{paperwidth=8.5in,paperheight=11in}
+\setmainfont{Droid Sans Mono}
+\pagecolor{gray!10}
+
+\def\heart{{\setfontsize{1.6ex}{1.6ex}\color{red}\ding{170}}}
+
+\begin{document}
+
+\setfontsize{65}{90}
+Why \\
+Linux\heart\,is \\
+Awesome
+
+\vspace*{2.5cm}
+
+\setfontsize{20.7}{25}
+A talk hosted by the \\
+Sudoers Group @ UTD \\
+(+food)
+
+\vspace*{1.5cm}
+
+ECSS 1.355 \\
+Feburary 22th \\
+7:00-8:00 pm \\
+
+\color{black!50}
+\overlayimage{south east}{shift={(-5cm,6.5cm)}}{.5\textwidth}{tux_logo}
+\overlaytext{south west}{shift={(7.5cm,6.5cm)}}{.7\textwidth}{%
+  \raggedright\setfontsize{14.5}{18}
+  https://sudoers.utdallas.edu \\
+  https://discord.gg/sky2WFB \\
+}
+\overlayqrcode{south west}{shift={(4cm,3.5cm)}}{height=3cm}{%
+  https://sudoers.utdallas.edu
+}
+
+\disclaimer{black!50}
+\end{document}
