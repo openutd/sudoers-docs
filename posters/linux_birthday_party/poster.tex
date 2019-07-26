@@ -1,0 +1,47 @@
+\documentclass[a4paper]{smallposter}
+\geometry{paperwidth=8.5in,paperheight=11in}
+\setmainfont{Droid Sans Mono}
+\pagecolor{gray!10}
+
+\begin{document}
+
+\overlayimage{center}{}{\paperwidth}{confetti}
+
+\setfontsize{85}{60}
+Linux \\
+
+\vspace*{.75cm}
+
+\setfontsize{50}{60}
+Birthday Party!
+
+\vspace*{1.5cm}
+\setfontsize{20}{25}
+
+A celebratory \\
+SuperTuxKart Tournament \\
+hosted by the \\
+Sudoers Group @ UTD \\
+\setfontsize{30}{25}
+(+cake!)
+
+\vspace*{1.25cm}
+
+\setfontsize{20}{25}
+ECSS 1.355 \\
+August 25th \\
+6:00-8:00 pm
+
+\color{black!80}
+\overlayimage{south east}{shift={(-5cm,6.5cm)}}{.5\textwidth}{supertux}
+\overlaytext{south west}{shift={(7.5cm,6.5cm)}}{.7\textwidth}{%
+  \raggedright\setfontsize{14.5}{18}
+  https://sudoers.utdallas.edu \\
+  https://discord.gg/HA68vVB \\
+}
+\overlayqrcode{south west}{shift={(4cm,3.5cm)}}{height=3cm}{%
+  https://sudoers.utdallas.edu
+}
+
+\disclaimer{black}
+\end{document}
