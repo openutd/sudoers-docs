@@ -1,3 +1,4 @@
 .vimrc_local
 *.log
 *.aux
+*.xdv
