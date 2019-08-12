@@ -52,7 +52,7 @@ top=2cm,right=3cm,bottom=2cm,left=3cm
   \overlaytext{south}{anchor=south,above=3}{.8\paperwidth}{%
     \color{#1}\setmainfont{Noto Sans}
     \centering\setfontsize{6}{9}
-    This flyer is published by the Sudoers Group @ UTD, a registered student organization. This flyer is not an official publication of UT Dallas and does not represent the views of the university or its officers.
+    This flyer is published by OpenUTD, a registered student organization. This flyer is not an official publication of UT Dallas and does not represent the views of the university or its officers.
 The University of Texas at Dallas is an Equal Opportunity/Affirmative Action University. Students with disabilities needing special assistance to attend please call (972-883-2946). Texas Relay Operation: 1-800-RELAYTX.
   }
 }

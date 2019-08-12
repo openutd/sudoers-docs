@@ -1,7 +1,26 @@
 \documentclass[a4paper]{smallposter}
+\usepackage{tcolorbox}
 \geometry{paperwidth=8.5in,paperheight=11in}
 \setmainfont{Droid Sans Mono}
 \pagecolor{gray!10}
+
+\tcbset{
+  frame code={},
+  center title,
+  halign=center,
+  left=0pt,
+  right=0pt,
+  top=0pt,
+  bottom=0pt,
+  colback=gray!20,
+  opacityback=.9,
+  colframe=gray!10,
+  width=.7\dimexpr\textwidth\relax,
+  enlarge left by=0mm,
+  boxsep=5pt,
+  arc=0pt,
+  outer arc=0pt,
+}
 
 \begin{document}
 
@@ -18,29 +37,32 @@ Birthday Party!
 \vspace*{1.5cm}
 \setfontsize{20}{25}
 
+\begin{tcolorbox}
 A celebratory \\
 SuperTuxKart Tournament \\
-hosted by the \\
-Sudoers Group @ UTD \\
+hosted by OpenUTD \\
 \setfontsize{30}{25}
 (+cake!)
 
-\vspace*{1.25cm}
+\vspace*{1cm}
 
 \setfontsize{20}{25}
-ECSS 1.355 \\
+SSA 14.510 \\
 August 25th \\
 6:00-8:00 pm
+\end{tcolorbox}
 
 \color{black!80}
 \overlayimage{south east}{shift={(-5cm,6.5cm)}}{.5\textwidth}{supertux}
 \overlaytext{south west}{shift={(7.5cm,6.5cm)}}{.7\textwidth}{%
-  \raggedright\setfontsize{14.5}{18}
-  https://sudoers.utdallas.edu \\
-  https://discord.gg/HA68vVB \\
+  \begin{tcolorbox}[width=.8\textwidth, colback=gray!10, opacityback=1]
+    \raggedright\setfontsize{14.5}{18}
+    https://sudoers.utdallas.edu \\
+    https://discord.gg/HA68vVB \\
+  \end{tcolorbox}
 }
 \overlayqrcode{south west}{shift={(4cm,3.5cm)}}{height=3cm}{%
-  https://sudoers.utdallas.edu/event/2019/08/25/linux-birthday.html
+  https://discord.gg/HA68vVB
 }
 
 \disclaimer{black}
