@@ -12,7 +12,6 @@
 \RequirePackage[%
 top=2cm,right=3cm,bottom=2cm,left=3cm
 ]{geometry}
-\RequirePackage[utf8]{inputenc}
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{fontspec}
 \RequirePackage{graphicx}
@@ -20,14 +19,13 @@ top=2cm,right=3cm,bottom=2cm,left=3cm
 \RequirePackage{tikz}
 \RequirePackage{pifont}
 \RequirePackage{qrcode}
-\RequirePackage{pagecolor}
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
 \centering
 
 \newcommand*{\setfontsize}[2]{\fontsize{#1}{#2}\selectfont}
-\newcommand*{\image}[2]{\includegraphics[width=#1]{#2}}
+\newcommand*{\image}[2]{\includegraphics[#1]{#2}}
 \newcommand*{\overlayimage}[4]
 {
   \begin{tikzpicture}[remember picture,overlay]
